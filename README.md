@@ -62,3 +62,9 @@ usage: strings64.exe [-a] [-f offset] [-b bytes] [-n length] [-o] [-s] [-u] <fil
 # 🔎 La Deobfuscation:
 
   - Généralement une des techniques les plus utiliser afin de protéger son code est l'[Offuscation](https://fr.wikipedia.org/wiki/Offuscation), elle est très efficace mais toute personne assez motivée peut arriver à débusquer plus ou moins partiellement, pour nous aider des projets tel que [DE4JS](https://lelinhtinh.github.io/de4js/) pour le JavaScript ou encore [PyInstxtractor](https://github.com/extremecoders-re/pyinstxtractor) pour le python ( du moins pour décompiler )
+
+## 1. Programmes open source
+
+  - Il est très probable que le [néophyte](https://fr.wikipedia.org/wiki/Script_kiddie) ayant poster le grabber l'est repris depuis Github, il y a donc de grande chance que vous trouvez le code sur github. Sur cet exemple j'ai pu retrouve le WebHook très facilement, et le récupérer comme nous le verront ci-dessous
+  
+  ![](https://media.discordapp.net/attachments/842811981807222804/842852017348673536/unknown.png)
