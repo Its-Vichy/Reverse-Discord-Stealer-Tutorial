@@ -69,3 +69,10 @@ usage: strings64.exe [-a] [-f offset] [-b bytes] [-n length] [-o] [-s] [-u] <fil
   
   ![](https://media.discordapp.net/attachments/842811981807222804/842852017348673536/unknown.png)
   ![](https://media.discordapp.net/attachments/842811981807222804/842851719888109638/unknown.png)
+  
+## 2. Des signes qui ne pardonnent pas
+
+  - Lors de la deobfuscation, vous pourrez trouver tous un tas d'indices ! *Le code ne ment jamais 💪*
+  
+  ![](https://media.discordapp.net/attachments/842811981807222804/842833849369362482/unknown.png)
+  ![](https://media.discordapp.net/attachments/842811981807222804/842833123212263434/unknown.png)
