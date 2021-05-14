@@ -15,6 +15,8 @@
 
 # 📜 Liens utiles.
 
+- [PyInstxtractor - Python Decompiler](https://github.com/extremecoders-re/pyinstxtractor)
+- [DE4JS - JavaScript Deobfuscator](https://lelinhtinh.github.io/de4js/)
 - [VirusTotal](https://www.virustotal.com/gui/)
 - [DnSpy](https://github.com/dnSpy/dnSpy)
 - [Script](https://cdn.discordapp.com/attachments/842802089763012669/842900999475036221/Script.rar)
@@ -56,3 +58,7 @@ usage: strings64.exe [-a] [-f offset] [-b bytes] [-n length] [-o] [-s] [-u] <fil
        Do not display the startup banner and copyright message.
 ```
   - L'option `-n` nous seras très utile, elle nous permet de récupérer uniquement les chaînes de caractères d'une longueur minimal, pratique pour un webhook 🦖
+
+# 🔎 La Deobfuscation:
+
+  - Généralement une des techniques les plus utiliser afin de protéger son code est l'[Offuscation](https://fr.wikipedia.org/wiki/Offuscation), elle est très efficace mais toute personne assez motivée peut arriver à débusquer plus ou moins partiellement, pour nous aider des projets tel que [DE4JS](https://lelinhtinh.github.io/de4js/) pour le JavaScript ou encore [PyInstxtractor](https://github.com/extremecoders-re/pyinstxtractor) pour le python ( du moins pour décompiler )
