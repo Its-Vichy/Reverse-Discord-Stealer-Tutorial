@@ -68,3 +68,4 @@ usage: strings64.exe [-a] [-f offset] [-b bytes] [-n length] [-o] [-s] [-u] <fil
   - Il est très probable que le [néophyte](https://fr.wikipedia.org/wiki/Script_kiddie) ayant poster le grabber l'est repris depuis Github, il y a donc de grande chance que vous trouvez le code sur github. Sur cet exemple j'ai pu retrouve le WebHook très facilement, et le récupérer comme nous le verront ci-dessous
   
   ![](https://media.discordapp.net/attachments/842811981807222804/842852017348673536/unknown.png)
+  ![](https://media.discordapp.net/attachments/842811981807222804/842851719888109638/unknown.png)
