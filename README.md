@@ -98,8 +98,14 @@ usage: strings64.exe [-a] [-f offset] [-b bytes] [-n length] [-o] [-s] [-u] <fil
 
 # 🧠 Utilisation de l'outil *Curl*:
 
-  - [Curl](https://fr.wikipedia.org/wiki/CURL) curl est un outil puissant, installé nativement sous Linux, et sous Windows également !
+  - [Curl](https://fr.wikipedia.org/wiki/CURL) est un outil puissant, installé nativement sous Linux, et sous Windows également !
 
 ## 1. Suprimmer un webhook avec curl:
   
   - L'option `-X DELETE` sera notre amie !, en effet elle permet de faire une requête de [méthode `DELETE`](https://developer.mozilla.org/fr/docs/Web/HTTP/Methods) et ainsi supprimer le webhook 🖕
+
+![](https://images-ext-1.discordapp.net/external/ut3cVPPlQhctgNbUkHQ8RTfAPleQiYmqW2IYIl2zqTY/https/media.discordapp.net/attachments/842802089763012669/842898314282139689/unknown.png)
+
+  - Un simple `curl` suivit de l'URL nous permettra d'obtenir des informations sur le web Hook, ce qui correspond à une [méthode `GET`](https://developer.mozilla.org/fr/docs/Web/HTTP/Methods)
+
+![](https://images-ext-1.discordapp.net/external/Hk9W4VNU57pUf4C1Pyih-4I6H41ClxEuk7-JBY7v6mU/https/media.discordapp.net/attachments/842802089763012669/842896986218430484/unknown.png)
