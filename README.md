@@ -20,6 +20,9 @@
 - [VirusTotal](https://www.virustotal.com/gui/)
 - [DnSpy](https://github.com/dnSpy/dnSpy)
 - [Script](https://cdn.discordapp.com/attachments/842802089763012669/842900999475036221/Script.rar)
+- [Curl](https://fr.wikipedia.org/wiki/CURL)
+
+#
 
 # 🔎 Premières investigations:
 
@@ -59,6 +62,8 @@ usage: strings64.exe [-a] [-f offset] [-b bytes] [-n length] [-o] [-s] [-u] <fil
 ```
   - L'option `-n` nous seras très utile, elle nous permet de récupérer uniquement les chaînes de caractères d'une longueur minimal, pratique pour un webhook 🦖
 
+#
+
 # 🔎 La Deobfuscation:
 
   - Généralement une des techniques les plus utiliser afin de protéger son code est l'[Offuscation](https://fr.wikipedia.org/wiki/Offuscation), elle est très efficace mais toute personne assez motivée peut arriver à débusquer plus ou moins partiellement, pour nous aider des projets tel que [DE4JS](https://lelinhtinh.github.io/de4js/) pour le JavaScript ou encore [PyInstxtractor](https://github.com/extremecoders-re/pyinstxtractor) pour le python ( du moins pour décompiler )
@@ -76,3 +81,25 @@ usage: strings64.exe [-a] [-f offset] [-b bytes] [-n length] [-o] [-s] [-u] <fil
   
   ![](https://media.discordapp.net/attachments/842811981807222804/842833849369362482/unknown.png)
   ![](https://media.discordapp.net/attachments/842811981807222804/842833123212263434/unknown.png)
+
+## 3. L'utiliser des Log
+
+- Une fois que vous saviez qu'elle est la variable qui contient le web Hook, il vous faut la connaître c'est le moment de `console log()`, `print()`... sur votre variable,
+  Veuillez garder à l'esprit que vous connaissez peut de ce code veuillez donc être sûr de désactiver la fonction qui envoie le token... sinon vous allez avoir l'air pas très malin !
+
+
+![](https://media.discordapp.net/attachments/842811981807222804/842852517984337930/unknown.png)
+
+## 4. Apprécier le résultat 😎:
+
+![](https://media.discordapp.net/attachments/842811981807222804/842916423650246656/unknown.png)
+
+#
+
+# 🧠 Utilisation de l'outil *Curl*:
+
+  - [Curl](https://fr.wikipedia.org/wiki/CURL) curl est un outil puissant, installé nativement sous Linux, et sous Windows également !
+
+## 1. Suprimmer un webhook avec curl:
+  
+  - L'option `-X DELETE` sera notre amie !, en effet elle permet de faire une requête de [méthode `DELETE`](https://developer.mozilla.org/fr/docs/Web/HTTP/Methods) et ainsi supprimer le webhook 🖕
