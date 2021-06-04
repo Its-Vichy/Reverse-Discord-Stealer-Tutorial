@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>🖤 Follow me here:</b><br>
-  <a href="https://discord.gg/aMs5BHuyaU">Discord</a> |
+  <a href="https://dsc.gg/rca">Discord</a> |
   <a href="https://www.youtube.com/channel/UC09GPm24_rdeOXa5KOmhDnw">YouTube</a> |
   <a href="https://twitter.com/its_vichy">Twitter</a> |
   <a href="https://github.com/Its-Vichy">Github</a>
